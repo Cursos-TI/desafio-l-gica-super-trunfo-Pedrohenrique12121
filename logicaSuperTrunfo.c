@@ -4,12 +4,10 @@
 #include <math.h>
  
 
-// Função criada para calcular a densidade populacional
 float calcular_densidade_p(unsigned long int populacao, float area){
     return populacao / area;
 }
 
-// Função para calcular o Pib per capita
 float calcular_pib_per_capita(float pib, unsigned long int populacao){
     return (pib *1000000000) / populacao; // realizo a multiplicação do PIB que está em bilhões, para convertê-lo em reais
 }
